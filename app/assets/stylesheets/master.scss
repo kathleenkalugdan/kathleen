@@ -37,10 +37,10 @@
 
 .links a {
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   border-bottom: 1px solid #dfdfdf;
   font-family: 'chunkfiveroman';
-  font-weight: bold;
+ 
 }
 
 header {
@@ -60,6 +60,8 @@ h1 {
 
 h2{
   font-family: 'chunkfiveroman';
+    font-size: 25px;
+
  
 }
 
@@ -84,4 +86,25 @@ h2{
 
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+  text-align: left;
+  }
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h2 span {
+  color: #dddddd;
+   font-family: 'chunkfiveroman';
+  font-weight: bold;
+  font-size: 48px;
+}
+
+::selection {
+  background-color: #f84342;
 }
